@@ -7,5 +7,6 @@ def error_404_view(request, exception):
     return HttpResponseNotFound("Page is NOt FOUDN!")
 
 
-def fly_berlin(self):
-    return "Berlin"
+def fly_usa(self):
+    pass
+
