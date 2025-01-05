@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_2!kuq^t94_)3bgba#-wp-s665gwak6skxs^4j_7c!rfrq(k+_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = []
+DEBUG = False # urls 다 보여줌
+
+ALLOWED_HOSTS = ['*'] # 접근경로
 
 
 # Application definition
